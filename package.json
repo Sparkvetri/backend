@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type" : "module",
-
+  "type": "module",
   "scripts": {
-    "server" : "nodemon server.js"
-   },
+    "server": "nodemon server.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,7 +18,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.0",
     "multer": "^1.4.5-lts.1",
+    "netlify-cli": "^17.26.3",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^3.1.1",
+    "serverless-http": "^3.2.0",
     "stripe": "^15.8.0",
     "validator": "^13.12.0"
   }
